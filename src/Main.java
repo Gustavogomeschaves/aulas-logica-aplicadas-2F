@@ -25,5 +25,7 @@ public class Main {
         rainha.sobrenome = "tunner";
         // Definição de comportamento
         System.out.println(rainha.falar("auto"));
+        rainha.comer();
     }
+
 }
