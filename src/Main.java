@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String [] args) {
         // Aula de Orientação  a Objetos
         // Declarar Objetos
         Pessoa adao;
@@ -14,5 +14,16 @@ public class Main {
         // Acionar comportamento
         adao.falar();
         eva.falar();
+        //criar mais objetos
+        Pessoa qualquer = new Pessoa();
+        //declarar objeto
+        Pessoa rainha;
+        //instancia do objeto
+        rainha = new Pessoa();
+        // Definindo forma da pessoa
+        rainha.nome = "tina";
+        rainha.sobrenome = "tunner";
+        // Definição de comportamento
+        System.out.println(rainha.falar("auto"));
     }
 }
