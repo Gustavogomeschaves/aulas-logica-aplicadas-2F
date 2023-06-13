@@ -1,4 +1,4 @@
-public class Pessoa extends Animal{
+public class     Pessoa extends Animal{
     //Atributos da classe
 
     String sobrenome;
